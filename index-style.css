@@ -1,0 +1,93 @@
+body {
+  background-image: linear-gradient(rgb(240, 255, 255), rgb(208, 223, 240));
+  color: black;
+  font-family: 'SVBasicManual';
+  margin: 0;
+  height: 100%;
+  overflow: hidden
+}
+
+.grid {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: static;
+    background-image:
+        linear-gradient(to right, white .5px, transparent .5px),
+        linear-gradient(to bottom, white .5px, transparent .5px);
+    background-size: 1.5rem 1.5rem;
+    background-position: center center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  min-width: 50%;
+  max-width: 80%;
+}
+
+.toolbar {
+  display: flex;
+  margin-bottom: 5px;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.logo {
+  float: left;
+}
+
+.buttons {
+  display: flex;
+  height: 15px;
+}
+
+.xbutton {
+  padding: 5px;
+  height: inherit;
+  width: 15px;
+  margin-left: 5px;
+  border-radius: 5px;
+  background-color: #fc493d;
+  color: white;
+  box-shadow: 5px 5px 8px #96c2e0;
+  text-align: center;
+  align-self: flex-end;
+  float: inherit;
+}
+
+.minimizebutton {
+  padding: 5px;
+  height: inherit;
+  width: 15px;
+  margin-left: 5px;
+  border-radius: 5px;
+  background-color: #c7e4ed;
+  color: white;
+  box-shadow: 5px 5px 8px #96c2e0;
+  text-align: center;
+  align-self: flex-end;
+  float: inherit;
+}
+
+
+.homebutton {
+  padding: 5px;
+  height: inherit; 
+  margin-left: 5px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 5px 5px 8px #96c2e0;
+  text-align: center;
+  align-self: flex-end;
+  float: inherit;
+}
+
+.mainbox {
+  height: 500px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 5px 5px 8px #96c2e0;
+}
